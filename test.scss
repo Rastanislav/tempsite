@@ -5,39 +5,6 @@ $navbar-height: 50px;
 $big-logo-padding: 15px; // adjust these 2 values
 $small-logo-padding: 2px; // of bottom padding to look nice
 
-body {
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 14px;
-	line-height: 1.42857;
-	color: #333;
-	background-color: #FFF;
-	margin:0;
-}
-
-
-
-header{
-
-}
-
-
-.header__big-banner{
-	position: absolute;
-	height: 200px;
-	width: 100%;
-	background-color: yellow;
-}
-
-
-.header__small-banner{
-	opacity: 0;
-	background-color: blue;
-	height: 70px;
-	width:100%;
-	position: fixed;
-}
-
-
 
 /* *********************************
    Some Style Overrides on Bootstrap
@@ -109,3 +76,16 @@ ul.nav {
   }
 }
 
+.headerr{
+	position: relative;
+	min-height: 50px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+
+	position: fixed;
+	right: 0px;
+	left: 0px;
+	z-index: 1030;
+
+
+}
