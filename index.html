@@ -6,13 +6,14 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 		<script type="text/javascript" src="main.js"></script>
+		<script type="text/javascript" src="skrollr.js"></script>
 		<link rel="stylesheet" type="text/css" href="main.css">
 
 		<title></title>
 
 	</head>
 	<body>
-	
+
 		<header>
 			<div class="header__big-banner">
 				<span>Big banner</span>
@@ -22,156 +23,72 @@
 				<span>Small banner</span>
 			</div>
 		</header>
-			
+
 		<aside>
-			
-		<nav class="navigation">
-			<ul class="navigation__list">
-				<li class="navigation__list__item"><a href="#about">About</a></li>
-				<li class="navigation__list__item"><a href="#skills">Skills</a></li>
-				<li class="navigation__list__item"><a href="#projects">Projects</a></li>
-				<li class="navigation__list__item"><a href="#contact">Contact</a></li>
-			</ul>
-		</nav>
+
+			<nav class="navigation">
+				<ul class="navigation__list">
+					<li class="navigation__list__item"><a href="#skills">Skills</a></li>
+					<li class="navigation__list__item"><a href="#projects">Projects</a></li>
+					<li class="navigation__list__item"><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
 		</aside>
 		<div class="content">
 
-			<div class="content__section" id="about">
-				<p>about</p>
-				<p>about</p>
-				<p>about</p>
-				<p>about</p>
-				<p>about</p>
-				<p>about</p>
-				<p>about</p>
-				<p>about</p>
-				<p>about</p>
-				<p>about</p>
-				<p>about</p>
-				<p>about</p>
-				<p>about</p>
-				<p>about</p>
-				<p>about</p>
-				<p>about</p>
-				<p>about</p>
-				<p>about</p>
-				<p>about</p>
-				<p>about</p>
-				<p>about</p>
-				<p>about</p>
-				<p>about</p>
-				<p>about</p>
-				<p>about</p>
-				<p>about</p>
-				<p>about</p>
-				<p>about</p>
-				<p>about</p>
-				<p>about</p>
-				<p>about</p>
-				<p>about</p>
-				<p>about</p>
-			</div>
-			<div class="content__section" id="skills">
-				<p>skills</p>
-				<p>skills</p>
-				<p>skills</p>
-				<p>skills</p>
-				<p>skills</p>
-				<p>skills</p>
-				<p>skills</p>
-				<p>skills</p>
-				<p>skills</p>
-				<p>skills</p>
-				<p>skills</p>
-				<p>skills</p>
-				<p>skills</p>
-				<p>skills</p>
-				<p>skills</p>
-				<p>skills</p>
-				<p>skills</p>
-				<p>skills</p>
-				<p>skills</p>
-				<p>skills</p>
-				<p>skills</p>
-				<p>skills</p>
-				<p>skills</p>
-				<p>skills</p>
-				<p>skills</p>
-				<p>skills</p>
-				<p>skills</p>
-				<p>skills</p>
-				<p>skills</p>
-				<p>skills</p>
-				<p>skills</p>
-				<p>skills</p>
-			</div>
-			<div class="content__section" id="projects">
-				<p>projects</p>
-				<p>projects</p>
-				<p>projects</p>
-				<p>projects</p>
-				<p>projects</p>
-				<p>projects</p>
-				<p>projects</p>
-				<p>projects</p>
-				<p>projects</p>
-				<p>projects</p>
-				<p>projects</p>
-				<p>projects</p>
-				<p>projects</p>
-				<p>projects</p>
-				<p>projects</p>
-				<p>projects</p>
-				<p>projects</p>
-				<p>projects</p>
-				<p>projects</p>
-				<p>projects</p>
-				<p>projects</p>
-				<p>projects</p>
-				<p>projects</p>
-				<p>projects</p>
-				<p>projects</p>
-				<p>projects</p>
-				<p>projects</p>
-				<p>projects</p>
-			</div>
-			<div class="content__section" id="contact">
-				<p>contact</p>
-				<p>contact</p>
-				<p>contact</p>
-				<p>contact</p>
-				<p>contact</p>
-				<p>contact</p>
-				<p>contact</p>
-				<p>contact</p>
-				<p>contact</p>
-				<p>contact</p>
-				<p>contact</p>
-				<p>contact</p>
-				<p>contact</p>
-				<p>contact</p>
-				<p>contact</p>
-				<p>contact</p>
-				<p>contact</p>
-				<p>contact</p>
-				<p>contact</p>
-				<p>contact</p>
-				<p>contact</p>
-				<p>contact</p>
-				<p>contact</p>
-				<p>contact</p>
-				<p>contact</p>
-				<p>contact</p>
-				<p>contact</p>
-				<p>contact</p>
-				<p>contact</p>
-				<p>contact</p>
-				<p>contact</p>
-				<p>contact</p>
-				<p>contact</p>
-				<p>contact</p>
-				<p>contact</p>
-			</div>
+			<section class="content__section" id="skills">
+				<div class="content__section-background" id="skills-background"
+					data-center="background-position: 50% 0px;" 
+	        		data-top-bottom="background-position: 50% -100px;" 
+	        		data-anchor-target="#skills">
+					<div class="content__section__item">
+						<p>skills</p>
+						<p>skills</p>
+						<p>skills</p>
+						<p>skills</p>
+						<p>skills</p>
+						<p>skills</p>
+						<p>skills</p>
+						<p>skills</p>
+						<p>skills</p>
+						<p>skills</p>
+						<p>skills</p>
+						<p>skills</p>
+						<p>skills</p>
+						<p>skills</p>
+						<p>skills</p>
+						<p>skills</p>
+						<p>skills</p>
+						<p>skills</p>
+						<p>skills</p>
+						<p>skills</p>
+						<p>skills</p>
+						<p>skills</p>
+						<p>skills</p>
+						<p>skills</p>
+					</div>
+				</div>
+			</section>
+			<section class="content__section" id="projects">
+				<div class="content__section-background" id="projects-background"
+					data-center="background-position: 50% 10px;" 
+					data-top-bottom="background-position: 50% -100px;" 
+					data-bottom-top="background-position: 50% 100px;" 
+					data-anchor-target="#projects">
+					<div class="content__section__item">
+					</div>
+				</div>
+			</section>
+			<section class="content__section" id="contact">
+				<div class="content__section-background" id="contact-background"
+					data-center="background-position: 50% 0px;" 
+					data-top-bottom="background-position: 50% -100px;" 
+					data-bottom-top="background-position: 50% 100px;" 
+					data-anchor-target="#contact">
+					<div class="content__section__item">
+					</div>
+				</div>
+			</section>
 		</div>
 
 

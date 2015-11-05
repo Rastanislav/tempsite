@@ -4,7 +4,7 @@ Variables
 $navbar-height: 50px;
 $big-banner-height: 200px;
 $small-banner-height: 70px;
-$aside-width: 190px;
+$aside-width: 200px;
 
 $body-background-color: white;
 
@@ -21,9 +21,7 @@ body {
 
 .content{
 	background-color: green;
-	margin-right: $aside-width;
 	min-height: 100%;
-	margin-left: $aside-width;
 	position: relative;
 	text-align: center;
 
@@ -73,10 +71,31 @@ top:0;
 }
 
 .content__section{
-	float: left;
-	width:100%;
 }
 
+.content__section__item{
+	margin-right: $aside-width;
+	margin-left: $aside-width;
+	/*background: url("footer_lodyas.png") repeat 50%;*/
+	background: url("dark_dotted2.png") repeat 50%;
+	/*background: url("dark_mosaic.png") repeat 50%;*/
+	/*background: url("dark_wood.png") repeat 50%;*/
+	opacity: 0.8;
+	/*float: left;*/
+	/*width:100%;*/
+	/*background: url("wood_1.png") repeat 50%;*/
+	/*background: url("black-Linen.png") repeat 50%;*/
+	/*background: url("triangles.png") repeat 50%;*/
+
+}
+
+.navigation__list{
+	list-style-type: none;
+}
+
+.navigation__list a{
+	text-decoration:none;
+}
 
 #about{
 background-color: pink;
@@ -87,17 +106,46 @@ background-color: pink;
 
 #skills{
 
-background-color: yellow;
+/*background-color: yellow;*/
 }
 
 
 #projects{
-	background-color: white;
+	/*background-color: white;*/
 }
 
 
 
 #contact{
-	background-color: brown;
+	/*background-color: brown;*/
 }
+
+
+
+
+
+
+.active{
+	color: white;
+	background-color: rgba(100,100,100,1);
+	border-left: thick solid rgba(0,255,0,0.5);
+}
+
+
+
+
+
+
+.content__section-background {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+#skills-background {background-image:url('img/bcg_slide-1.jpg')}
+#projects-background {background-image:url('img/bcg_slide-2.jpg')}
+#contact-background {background-image:url('img/bcg_slide-3.jpg')}
 

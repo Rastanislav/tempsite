@@ -11,9 +11,7 @@ body {
 
 .content {
   background-color: green;
-  margin-right: 190px;
   min-height: 100%;
-  margin-left: 190px;
   position: relative;
   text-align: center; }
 
@@ -24,7 +22,7 @@ aside {
   left: 0px;
   position: fixed;
   top: 0px;
-  width: 190px; }
+  width: 200px; }
 
 .navigation {
   top: 50%;
@@ -52,20 +50,58 @@ header {
   width: 100%;
   position: fixed; }
 
-.content__section {
-  float: left;
-  width: 100%; }
+.content__section__item {
+  margin-right: 200px;
+  margin-left: 200px;
+  /*background: url("footer_lodyas.png") repeat 50%;*/
+  background: url("dark_dotted2.png") repeat 50%;
+  /*background: url("dark_mosaic.png") repeat 50%;*/
+  /*background: url("dark_wood.png") repeat 50%;*/
+  opacity: 0.8;
+  /*float: left;*/
+  /*width:100%;*/
+  /*background: url("wood_1.png") repeat 50%;*/
+  /*background: url("black-Linen.png") repeat 50%;*/
+  /*background: url("triangles.png") repeat 50%;*/ }
+
+.navigation__list {
+  list-style-type: none; }
+
+.navigation__list a {
+  text-decoration: none; }
 
 #about {
   background-color: pink; }
 
 #skills {
-  background-color: yellow; }
+  /*background-color: yellow;*/ }
 
 #projects {
-  background-color: white; }
+  /*background-color: white;*/ }
 
 #contact {
-  background-color: brown; }
+  /*background-color: brown;*/ }
+
+.active {
+  color: white;
+  background-color: #646464;
+  border-left: thick solid rgba(0, 255, 0, 0.5); }
+
+.content__section-background {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%; }
+
+#skills-background {
+  background-image: url("img/bcg_slide-1.jpg"); }
+
+#projects-background {
+  background-image: url("img/bcg_slide-2.jpg"); }
+
+#contact-background {
+  background-image: url("img/bcg_slide-3.jpg"); }
 
 /*# sourceMappingURL=main.css.map */
