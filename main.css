@@ -53,6 +53,7 @@ header {
 .content__section__item {
   margin-right: 200px;
   margin-left: 200px;
+  height: inherit;
   /*background: url("footer_lodyas.png") repeat 50%;*/
   background: url("dark_dotted2.png") repeat 50%;
   /*background: url("dark_mosaic.png") repeat 50%;*/
@@ -88,12 +89,16 @@ header {
   border-left: thick solid rgba(0, 255, 0, 0.5); }
 
 .content__section-background {
+  position: relative;
+  overflow: hidden;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  padding-top: 120px;
+  padding-bottom: 120px; }
 
 #skills-background {
   background-image: url("img/bcg_slide-1.jpg"); }
