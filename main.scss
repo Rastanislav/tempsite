@@ -77,7 +77,10 @@ top:0;
 .content__section__item{
 	margin-right: $aside-width;
 	margin-left: $aside-width;
-	height: inherit;
+	margin-top: $content-vertical-margin;
+	margin-bottom: $content-vertical-margin;
+	/*height: inherit;*/
+	height: 600px;
 	/*background: url("footer_lodyas.png") repeat 50%;*/
 	background: url("dark_dotted2.png") repeat 50%;
 	/*background: url("dark_mosaic.png") repeat 50%;*/
@@ -127,11 +130,11 @@ background-color: pink;
 
 
 
-.active{
-	color: white;
-	background-color: rgba(100,100,100,1);
-	border-left: thick solid rgba(0,255,0,0.5);
-}
+/*.active{*/
+	/*color: white;*/
+	/*background-color: rgba(100,100,100,1);*/
+	/*border-left: thick solid rgba(0,255,0,0.5);*/
+/*}*/
 
 
 
@@ -142,13 +145,11 @@ background-color: pink;
 	position: relative;
 	overflow: hidden;
 	background-position: center center;
-	background-repeat: no-repeat;
+	/*background-repeat: no-repeat;*/
 	background-attachment: fixed;
 	background-size: cover;
 	height: 100%;
 	width: 100%;
-	padding-top: $content-vertical-margin;
-	padding-bottom: $content-vertical-margin;
 }
 
 #skills-background {background-image:url('img/bcg_slide-1.jpg')}

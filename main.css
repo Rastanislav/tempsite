@@ -53,7 +53,10 @@ header {
 .content__section__item {
   margin-right: 200px;
   margin-left: 200px;
-  height: inherit;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  /*height: inherit;*/
+  height: 600px;
   /*background: url("footer_lodyas.png") repeat 50%;*/
   background: url("dark_dotted2.png") repeat 50%;
   /*background: url("dark_mosaic.png") repeat 50%;*/
@@ -83,22 +86,20 @@ header {
 #contact {
   /*background-color: brown;*/ }
 
-.active {
-  color: white;
-  background-color: #646464;
-  border-left: thick solid rgba(0, 255, 0, 0.5); }
-
+/*.active{*/
+/*color: white;*/
+/*background-color: rgba(100,100,100,1);*/
+/*border-left: thick solid rgba(0,255,0,0.5);*/
+/*}*/
 .content__section-background {
   position: relative;
   overflow: hidden;
   background-position: center center;
-  background-repeat: no-repeat;
+  /*background-repeat: no-repeat;*/
   background-attachment: fixed;
   background-size: cover;
   height: 100%;
-  width: 100%;
-  padding-top: 120px;
-  padding-bottom: 120px; }
+  width: 100%; }
 
 #skills-background {
   background-image: url("img/bcg_slide-1.jpg"); }
