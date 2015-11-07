@@ -19,12 +19,27 @@
 
     };
 
- $(document).ready(function() {
-		//FULLPAGE
-        $('.content').fullpage({
-			scrollBar: true,
-        	scrollingSpeed: 1500
-        });
+$(document).ready(function() {
+	//FULLPAGE
+			$winWidth = $(window).width();
+			$offset = 0;
+    $('.content').fullpage({
+		scrollBar: true,
+        scrollingSpeed: 1500,
+		onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex) {
+
+			(direction === "right") ? $offset -= 200 : $offset += 200;
+
+				$('#projects').stop().animate({
+					'background-position' : $offset 
+				}, 1500);
+  		}
+    });
+
+
+
+
+
         //$.fn.fullpage.setScrollingSpeed(7000);
 	// Setup variables
 	$window = $(window);

@@ -81,7 +81,9 @@ header {
   /*background-color: yellow;*/ }
 
 #projects {
-  /*background-color: white;*/ }
+  /*background-color: white;*/
+  background-image: url("img/long_old.jpg");
+  background-position: 0; }
 
 #contact {
   /*background-color: brown;*/ }
@@ -104,9 +106,7 @@ header {
 #skills-background {
   background-image: url("img/bcg_slide-1.jpg"); }
 
-#projects-background {
-  background-image: url("img/bcg_slide-2.jpg"); }
-
+/*#projects-background {background-image:url('img/bcg_slide-2.jpg')}*/
 #contact-background {
   background-image: url("img/bcg_slide-3.jpg"); }
 
