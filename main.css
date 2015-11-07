@@ -30,7 +30,7 @@ aside {
   position: fixed; }
 
 header {
-  z-index: 1;
+  z-index: 2;
   top: 0; }
 
 .header__big-banner {
@@ -82,7 +82,7 @@ header {
 
 #projects {
   /*background-color: white;*/
-  background-image: url("img/long_old.jpg");
+  background-image: url("img/long.jpg");
   background-position: 0; }
 
 #contact {
