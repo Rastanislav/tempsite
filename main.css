@@ -26,26 +26,27 @@ aside {
 
 .navigation {
   top: 50%;
+  left: 80%;
   transform: translateY(-50%);
-  position: fixed; }
+  position: absolute; }
 
 header {
   z-index: 2;
   top: 0; }
 
 .header__big-banner {
-  z-index: inherit;
   top: inherit;
-  position: absolute;
+  position: fixed;
   height: 200px;
   width: 100%;
-  background-color: yellow; }
+  background-color: #171712; }
 
 .header__small-banner {
   top: inherit;
+  /*display:none;*/
   opacity: 0;
   z-index: inherit;
-  background-color: blue;
+  background-color: #171712;
   height: 70px;
   width: 100%;
   position: fixed; }
@@ -71,8 +72,13 @@ header {
 .navigation__list {
   list-style-type: none; }
 
+.navigation__list__item {
+  display: inline; }
+
 .navigation__list a {
-  text-decoration: none; }
+  text-decoration: none;
+  font-size: 20px;
+  width: 60px; }
 
 #about {
   background-color: pink; }
@@ -109,5 +115,13 @@ header {
 /*#projects-background {background-image:url('img/bcg_slide-2.jpg')}*/
 #contact-background {
   background-image: url("img/bcg_slide-3.jpg"); }
+
+.header__img {
+  margin-left: 200px;
+  width: 170px;
+  border-radius: 50em;
+  border: solid 4px #044D04;
+  /*top: 50%;*/
+  transform: translateY(6%); }
 
 /*# sourceMappingURL=main.css.map */
