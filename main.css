@@ -80,8 +80,10 @@ header {
   font-size: 20px;
   width: 60px; }
 
-#about {
-  background-color: pink; }
+#home {
+  background-color: pink;
+  /*background-image:url('img/par.jpg');*/
+  background-image: url("img/par.jpg"); }
 
 #skills {
   /*background-color: yellow;*/ }
@@ -94,11 +96,6 @@ header {
 #contact {
   /*background-color: brown;*/ }
 
-/*.active{*/
-/*color: white;*/
-/*background-color: rgba(100,100,100,1);*/
-/*border-left: thick solid rgba(0,255,0,0.5);*/
-/*}*/
 .content__section-background {
   position: relative;
   overflow: hidden;
@@ -116,12 +113,21 @@ header {
 #contact-background {
   background-image: url("img/bcg_slide-3.jpg"); }
 
-.header__img {
+.header__big-banner--visible {
   margin-left: 200px;
+  margin-right: 200px;
+  top: 50%; }
+
+.header__img {
+  float: left;
   width: 170px;
   border-radius: 50em;
   border: solid 4px #044D04;
   /*top: 50%;*/
   transform: translateY(6%); }
+
+.header__text {
+  float: left;
+  margin-top: 100px; }
 
 /*# sourceMappingURL=main.css.map */

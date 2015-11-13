@@ -110,8 +110,10 @@ top:0;
 	width: 60px;
 }
 
-#about{
+#home{
 background-color: pink;
+	/*background-image:url('img/par.jpg');*/
+	background-image:url('img/par.jpg');
 
 }
 
@@ -136,21 +138,6 @@ background-color: pink;
 }
 
 
-
-
-
-
-/*.active{*/
-	/*color: white;*/
-	/*background-color: rgba(100,100,100,1);*/
-	/*border-left: thick solid rgba(0,255,0,0.5);*/
-/*}*/
-
-
-
-
-
-
 .content__section-background {
 	position: relative;
 	overflow: hidden;
@@ -168,9 +155,15 @@ background-color: pink;
 
 
 
+.header__big-banner--visible{
+	margin-left: $aside-width;
+	margin-right: $aside-width;
+	top: 50%;
+
+}
 
 .header__img{
-	margin-left: $aside-width;
+	float:left;
 	width: 170px;
 	border-radius: 50em;
 	border: solid 4px #044D04;
@@ -178,4 +171,7 @@ background-color: pink;
 	transform: translateY(6%);
 }
 
-
+.header__text{
+	float:left;
+	margin-top: ($big-banner-height / 2);
+}
