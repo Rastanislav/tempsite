@@ -59,6 +59,7 @@ top:0;
 	height: $big-banner-height;
 	width: 100%;
 	background-color: $big-banner-color;
+	border-bottom: #1D421D solid 1px;
 }
 
 
@@ -84,7 +85,8 @@ top:0;
 	/*height: inherit;*/
 	height: 600px;
 	/*background: url("footer_lodyas.png") repeat 50%;*/
-	background: url("dark_dotted2.png") repeat 50%;
+	/*background: url("dark_dotted2.png") repeat 50%;*/
+	background: url("img/pattern1.png") repeat 50%;
 	/*background: url("dark_mosaic.png") repeat 50%;*/
 	/*background: url("dark_wood.png") repeat 50%;*/
 	opacity: 0.8;
@@ -141,7 +143,7 @@ background-color: pink;
 .content__section-background {
 	position: relative;
 	overflow: hidden;
-	background-position: center center;
+	/*background-position: center center;*/
 	/*background-repeat: no-repeat;*/
 	background-attachment: fixed;
 	background-size: cover;
@@ -174,4 +176,39 @@ background-color: pink;
 .header__text{
 	float:left;
 	margin-top: ($big-banner-height / 2);
+}
+
+
+.content__section__small__item{
+	display: inline-block;
+	vertical-align: middle;
+	/*margin-right: $aside-width;*/
+	/*margin-left: $aside-width;*/
+	margin-top: ($big-banner-height + 100);
+	/*margin-bottom: $content-vertical-margin;*/
+	/*height: inherit;*/
+	height: 285px;
+	width: 285px;
+	/*background: url("footer_lodyas.png") repeat 50%;*/
+	background: url("img/pattern1.png") repeat 50%;
+	/*background: url("img/pattern_original.png") repeat 50%;*/
+	/*background: url("dark_mosaic.png") repeat 50%;*/
+	/*background: url("dark_wood.png") repeat 50%;*/
+	/*float: left;*/
+	/*width:100%;*/
+	/*background: url("wood_1.png") repeat 50%;*/
+	/*background: url("black-Linen.png") repeat 50%;*/
+	/*background: url("triangles.png") repeat 50%;*/
+	border: #1D421D solid 1px;
+
+}
+
+
+.dummy{
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: ($big-banner-height + 100);
+	height: 300px;
+	width: 300px;
+
 }
